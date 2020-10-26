@@ -1,0 +1,11 @@
+statistics
+requests
+asyncio
+websockets
+sockets
+numpy
+datetime
+argparse
+imutils
+dlib
+opencv-python
