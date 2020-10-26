@@ -18,7 +18,7 @@ Step 3) Now that this is done, we'll need to get a copy of CUDA 10.1, cudNN 7.4.
 - https://developer.nvidia.com/cudnn
 - Also, run getTorch.bat at this time
 
-Step 4) Final step - now we're actually going to download the AI thats runs this thing. Go here, and place it under gaze_tracking/trained_models
+Step 4) Final step - now we're actually going to download the AI thats runs this thing. Go here, and create a folder under gaze_tracking called trained_models. Paste it here!
 - https://drive.google.com/file/d/1Duf9XZ7y_vVVDcBwcaN2nsU4uzMIdPCP/view?usp=sharing
 
 Step 5) Now that this's taken care of, go to my public folder and get yourself a copy of "pointCloudAvatarDesktop". Run RUNME.bat, hop into NeosVR in screen mode and the avatar should automatically connect. If it doesn't press the reconnect button, you should see a point cloud of your face. Have fun!!
