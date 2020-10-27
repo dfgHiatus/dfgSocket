@@ -7,7 +7,7 @@ Included is the source code needed to get this thing running. You'll have to com
 
 Step 0) Have a web camera plugged in and make sure it's the default device.
 
-Step 1) Install Python 3.8.6. If you already have python installed, you may need to upgrade/downgrade.
+Step 1) Install Python 3.8.6. If you already have python installed, you may need to upgrade/downgrade. Be sure to add python to PATH to run those batch files, since it uses pip directly.
 - https://www.python.org/downloads/release/python-386/?hn
 
 Step 2) Install needed packages by running INSTALL.bat. While these are the ones I explicitly use, there may some being used behind the scenes - let me know if I'm missing anything. 
