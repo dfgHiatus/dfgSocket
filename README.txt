@@ -12,7 +12,7 @@ Step 1) Install Python 3.8.6. If you already have python installed, you may need
 
 Step 2) Install needed packages by running INSTALL.bat. While these are the ones I explicitly use, there may some being used behind the scenes - let me know if I'm missing anything. 
 
-Step 3) Now that this is done, we'll need to get a copy of CUDA 10.1, cudNN 7.4.6, and pyTorch. Get them from here:
+Step 3) Now that this is done, we'll need to get a copy of CUDA 10.1, cudNN 7.6.4, and pyTorch. Get them from here:
 
 - https://developer.nvidia.com/cuda-10.1-download-archive-base
 - https://developer.nvidia.com/cudnn
