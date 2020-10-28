@@ -23,7 +23,7 @@ Step 4) Final step - now we're actually going to download the AI thats runs this
 
 Step 5) Now that this's taken care of, go to my public folder and get yourself a copy of "pointCloudAvatarDesktop". Run RUNME.bat, hop into NeosVR in screen mode and the avatar should automatically connect. If it doesn't press the reconnect button, you should see a point cloud of your face. Have fun!!
 
-======================================================================================================================================================================
+=====
 
 Changelog:
 
