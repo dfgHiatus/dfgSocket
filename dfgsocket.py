@@ -22,8 +22,14 @@ def vconcat_resize_min(im_list, interpolation=cv2.INTER_CUBIC):
                       for im in im_list]
     return cv2.vconcat(im_list_resize)
 
+# Get upper face from file, uncomment next line for VR use
+# upper_face = cv2.imread("upper_face.jpg")
+
 # Load video input. Be sure the web camera you're using is the default device!
 cap = cv2.VideoCapture(0) 
+
+# Initiallize eye tracking for screen mode
+# gaze = GazeTracking()
 
 # AI Stuff, loading the face database
 detector = dlib.get_frontal_face_detector() 
@@ -41,8 +47,18 @@ async def facetrack(websocket, path):
         
         # Read in a webcamera frame
         _, frame = cap.read() 
+	
+	# The following is for VR web-camera face tracking
+	# If the webcamera feed is rotated, changing the angle will offset this
+	# frame = imutils.rotate(frame, angle=90)
+	
+        # Crop input image
+        # frame = frame[150:400, 50:400]
+    
+        # Stitch this image together with our top one
+        # frame = vconcat_resize_min([upper_face, frame])
         
-		# Resize frame for performace++
+	# Resize frame for performace++
         frame = imutils.resize(frame, width=400)
 
         # Convert to grayscale
