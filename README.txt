@@ -22,3 +22,21 @@ Step 4) Final step - now we're actually going to download the AI thats runs this
 - https://drive.google.com/file/d/1Duf9XZ7y_vVVDcBwcaN2nsU4uzMIdPCP/view?usp=sharing
 
 Step 5) Now that this's taken care of, go to my public folder and get yourself a copy of "pointCloudAvatarDesktop". Run RUNME.bat, hop into NeosVR in screen mode and the avatar should automatically connect. If it doesn't press the reconnect button, you should see a point cloud of your face. Have fun!!
+
+======================================================================================================================================================================
+
+Changelog:
+
+v0.0.1- Initial Commit
+
+Desktop face tracking for NeosVR.
+
+v0.0.2 - Alpha VR Commit
+
+The moment we've all been waiting for. The way this implementation works is that it stitches together a picture of your upper face with your lower moving mouth. It's a weird solution, but beats having to retrain the AI.
+
+To use this, 
+1) Un-comment out lines 26, 53, 56, and 59.
+2) Take a picture of your face, and crop it just so the bottom of the nose is visible. Name it "upper_face.jpg", and insert it into the same folder as dfgSocket.py.
+3) Mount the camera to your HMD, shoulder, etc and have it face your mouth. Make sure it's in place!
+4) Run and have fun. Camera calibration is iffy still, this is something I'm working on and will add
