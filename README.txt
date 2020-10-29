@@ -21,7 +21,7 @@ Step 3) Now that this is done, we'll need to get a copy of CUDA 10.1, cudNN 7.6.
 Step 4) Final step - now we're actually going to download the AI thats runs this thing. Go here, and create a folder under gaze_tracking called trained_models. Paste it here!
 - https://drive.google.com/file/d/1Duf9XZ7y_vVVDcBwcaN2nsU4uzMIdPCP/view?usp=sharing
 
-Step 5) Now that this's taken care of, go to my public folder and get yourself a copy of "pointCloudAvatarDesktop". Run RUNME.bat, hop into NeosVR in screen mode and the avatar should automatically connect. If it doesn't press the reconnect button, you should see a point cloud of your face. Have fun!!
+Step 5) Now that this's taken care of, go to my public folder and get yourself a copy of "pointCloudAvatarDesktop". Change the WebSocket client to listen to your computer and change the name under the Avatar LogiX. Run RUNME.bat, hop into NeosVR in screen mode and the avatar should automatically connect. If it doesn't press the reconnect button, you should see a point cloud of your face. Have fun!!
 
 =====
 
@@ -39,4 +39,5 @@ To use this,
 1) Un-comment out lines 26, 53, 56, and 59.
 2) Take a picture of your face, and crop it just so the bottom of the nose is visible. Name it "upper_face.jpg", and insert it into the same folder as dfgSocket.py.
 3) Mount the camera to your HMD, shoulder, etc and have it face your mouth. Make sure it's in place!
-4) Run and have fun. Camera calibration is iffy still, this is something I'm working on and will add
+4) Hop into NeosVR and download a copy of my pointCloudAvatar. If you haven't already, change the WebSocket client to listen to your computer and change out the name under the LogiX
+5) Run and have fun. Camera calibration is iffy still, this is something I'm working on and will add
