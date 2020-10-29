@@ -27,7 +27,7 @@ Step 5) Now that this's taken care of, go to my public folder and get yourself a
 
 Changelog:
 
-v0.0.1- Initial Commit
+v0.0.1 - Initial Commit
 
 Desktop face tracking for NeosVR.
 
