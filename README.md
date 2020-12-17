@@ -1,8 +1,10 @@
-dfgSocket is a face and gaze tracking application for screen mode users in NeosVR. To use, download and run dfgSocket.exe and equip a pre-set pointCloudAvatar from my public folder "dfg's contraptions".
+![promo_1](https://raw.githubusercontent.com/dfgHiatus/dfgSocket/main/dfgFace.jpg)
+
+*dfgSocket is a face and gaze tracking application for screen mode users in NeosVR. To use, download and run dfgSocket.exe and equip a pre-set pointCloudAvatar from my public folder "dfg's contraptions".*
 
 Hello all! I will be updating this Github with planned changes, known bugs and channels for feedback/feature requests in regards to dfgSocket. If you do not have a copy of my public folder "dfg's contraptions", you can find a copy in "The Directory" or PM me in game/on discord dfgHiatus#7426.
 
-FOR DEVELOPERS, READ ON:
+=== FOR DEVELOPERS, READ ON: ===
 
 Included is the source code needed to get this thing running. You can build your own version with [pyinstaller --onefile -w 'dfgSocket.py'].
 
